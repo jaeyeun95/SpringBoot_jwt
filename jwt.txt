@@ -17,3 +17,8 @@ Signature
 단점
 - Payload의 정보가 많아지면 네트워크 사용량 증가해서 데이터 설계 고려가 필요하다
 - 토큰이 클라이언트에 저장, 서버에서 클라이언트의 토큰을 조작할 수 없음
+
+- 401 unathorized 해결을 위한 Security 설정
+- Datasource, JPA 설정
+- Entity 생성
+- H2 Console 결과 확인
