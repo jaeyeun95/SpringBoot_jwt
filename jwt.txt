@@ -18,7 +18,17 @@ Signature
 - Payload의 정보가 많아지면 네트워크 사용량 증가해서 데이터 설계 고려가 필요하다
 - 토큰이 클라이언트에 저장, 서버에서 클라이언트의 토큰을 조작할 수 없음
 
+2강
 - 401 unathorized 해결을 위한 Security 설정
 - Datasource, JPA 설정
 - Entity 생성
 - H2 Console 결과 확인
+
+3강
+- JWT 설정 추가
+- JWT 관련 코드 개발
+- Security 설정 추가
+
+유효한 자격증명을 제공하지 않고 접근하려 할 때 401 Unauthorized 에러를 리턴할 클래스
+
+필요한 권한이 존재하지 않는 경우에 403 Forbidden 에러를 리턴하기 위해
